@@ -69,7 +69,7 @@ The Power BI dashboard contains three pages:
 - **Morocco:** Morocco's medal evolution and sports performance.[Morocco Dashboard](Images/Maroc_Analysis.png)
 - **Comparison:** Morocco, Algeria, Tunisia, and Egypt side by side.[North Africa Dashboard](Images/North_African_Comparison_Dahboard.png)
 
-![Dashboard Preview](PowerBi/olympics_analysis_dashboard.pbix)
+[Dashboard Preview](PowerBI/olympics_analysis_dashboard.pbix)
 
 ## SQL Analysis
 
