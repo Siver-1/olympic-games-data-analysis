@@ -106,14 +106,6 @@ WHERE NOC = 'MAR'
 GROUP BY NOC;
 
 -- Q4 Which Moroccan athletes have competed in at least three Olympic Games?
-SELECT * FROM Olympics ;
-SELECT Name ,
-       Count(DISTINCT Event) AS Total_Participations
-FROM Olympics
-WHERE Noc ="MAR"
-GROUP BY Name  
-HAVING Count(DISTINCT Event) >=3 
-ORDER BY Total_Participations ASC    ;
 SELECT
     Name,
     COUNT(DISTINCT Year) AS Editions_Participated
