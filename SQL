@@ -1,1 +1,0 @@
--- SQL queries for my data analysis project
