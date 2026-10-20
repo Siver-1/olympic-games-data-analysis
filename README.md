@@ -56,13 +56,15 @@ Dashboard screenshots will be added to this repository.
 
 ## SQL Analysis
 
-The SQL component includes queries using:
+### SQL Analysis
 
-- Aggregate functions and `GROUP BY`
-- Common Table Expressions (CTEs)
-- Window functions such as `LAG()` , `RANK()` ,DENSE_RANK
-- Historical comparisons and medal analysis
-- Athlete participation analysis
+The SQL analysis is organized into three parts:
+
+- [Global Olympic Analysis](sql/01_global_analysis.sql) — General trends in Olympic participation, sports, and countries.
+- [Morocco Analysis](sql/02_morocco_analysis.sql) — Morocco's Olympic performance and medal evolution.
+- [North African Comparison](sql/03_north_africa_comparison.sql) — Comparison of Morocco, Algeria, Tunisia, and Egypt.
+
+For column definitions and data details, see the [Data Dictionary](docs/data_dictionary.md).
 
 ## Key Findings
 
