@@ -5,7 +5,7 @@
 This project analyzes historical data from the **Summer Olympic Games**, focusing on global Olympic trends, Morocco's performance, and comparisons between Morocco, Algeria, Tunisia, and Egypt.
 
 The analysis uses two complementary tables:
-- `olympic`: athlete-level data, including participation, sports, events, and medal results.
+- `olympics`: athlete-level data, including participation, sports, events, and medal results.
 - `medal_summary`: country-level medal statistics for each Olympic edition.
 
 ## 2. Table: `olympic`
