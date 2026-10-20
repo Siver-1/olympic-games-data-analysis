@@ -16,7 +16,7 @@ The analysis uses two complementary tables:
 |---|---|
 | `Player_Id` | Unique identifier assigned to a player or athlete. |
 | `Name` | Athlete's name. |
-| `sex` | Athlete's sex, as recorded in the dataset. |
+| `sex` | Athlete's gender, as recorded in the dataset. |
 | `Team` | Team or delegation name associated with the athlete. |
 | `NOC` | National Olympic Committee code. |
 | `Year` | Year of the Olympic edition. |
