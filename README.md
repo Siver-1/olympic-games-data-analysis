@@ -69,8 +69,6 @@ The Power BI dashboard contains three pages:
 - **Morocco:** Morocco's medal evolution and sports performance.[Morocco Dashboard](Images/Maroc_Analysis.png)
 - **Comparison:** Morocco, Algeria, Tunisia, and Egypt side by side.[North Africa Dashboard](Images/North_African_Comparison_Dahboard.png)
 
-[Dashboard Preview](PowerBI/olympics_analysis_dashboard.pbix)
-
 ## SQL Analysis
 
 The SQL analysis is organized into three parts:
@@ -89,7 +87,6 @@ For column definitions and data details, see the [Data Dictionary](data_dictiona
 
 - Results depend on the coverage and structure of the source dataset.
 - Athlete-level medal records may count multiple members of the same medal-winning team.
-- Sport-level medal calculations require deduplication and validation.
 - Comparisons should account for differences between the official medal summary and detailed athlete records.
 
 ## Author
