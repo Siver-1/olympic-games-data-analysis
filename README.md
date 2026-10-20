@@ -75,7 +75,7 @@ The Power BI dashboard contains three pages:
 
 The SQL analysis is organized into three parts:
 
-- [Global Olympic Analysis](sql/01_global_analysis.sql): General trends in Olympic participation, sports, and countries.
+- [Global Olympic Analysis](SQL/Global_Analysis.sql): General trends in Olympic participation, sports, and countries.
 - [Morocco Analysis](sql/02_morocco_analysis.sql): Morocco's Olympic performance and medal evolution.
 - [North African Comparison](sql/03_north_africa_comparison.sql): Comparison of Morocco, Algeria, Tunisia, and Egypt.
 
