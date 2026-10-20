@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This project analyzes historical Olympic Games data From 1896 to 2024 using SQL and Microsoft Power BI. It explores Olympic participation, medal performance, and the evolution of Morocco's results compared with Algeria ,Tunisia and Egypt.
+This project analyzes historical Olympic Summer Games data From 1896 to 2024 using SQL and Microsoft Power BI. It explores Olympic participation, medal performance, and the evolution of Morocco's results compared with Algeria ,Tunisia and Egypt.
 
 The goal is to transform raw data into meaningful insights through SQL queries, data analysis, and interactive visualizations.
 
 ## Project Objectives
 
-- Analyze the historical evolution of the Olympic Games.
+- Analyze the historical evolution of the Olympic Summer Games.
 - Explore Morocco's Olympic medal performance across editions.
 - Compare Morocco, Algeria, Tunisia and Egypt using historical medal data.
 - Identify sports contributing to each country's medal results.
