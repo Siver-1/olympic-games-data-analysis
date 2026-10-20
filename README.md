@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes historical Olympic Summer Games data From 1896 to 2024 using SQL and Microsoft Power BI. It explores Olympic participation, medal performance, and the evolution of Morocco's results compared with Algeria ,Tunisia and Egypt.
+This project analyzes historical Olympic Summer Games data from 1896 to 2024 using SQL and Microsoft Power BI. It explores Olympic participation, medal performance, and the evolution of Morocco's results compared with Algeria, Tunisia, and Egypt.
 
 The goal is to transform raw data into meaningful insights through SQL queries, data analysis, and interactive visualizations.
 
@@ -10,13 +10,13 @@ The goal is to transform raw data into meaningful insights through SQL queries, 
 
 - Analyze the historical evolution of the Olympic Summer Games.
 - Explore Morocco's Olympic medal performance across editions.
-- Compare Morocco, Algeria, Tunisia and Egypt using historical medal data.
+- Compare Morocco, Algeria, Tunisia, and Egypt using historical medal data.
 - Identify sports contributing to each country's medal results.
 - Build an interactive dashboard to communicate key findings.
 
 ## Tools & Technologies
 
-- **SQL / MySQL Workbench:** Data exploration, aggregation, Subqueries, CTEs, and window functions.
+- **SQL / MySQL Workbench:** Data exploration, aggregation, subqueries, CTEs, and window functions.
 - **Microsoft Power BI:** Interactive dashboards and data visualization.
 - **DAX:** Measures and performance indicators.
 
@@ -24,16 +24,33 @@ The goal is to transform raw data into meaningful insights through SQL queries, 
 
 The project uses two complementary tables:
 
-- **`medal_summary`** — country-level medal statistics by Olympic edition.
-- **`olympics`** — detailed athlete, sport, event, and medal records.
+- **`medal_summary`**: country-level medal statistics by Olympic edition.
+- **`olympics`**: detailed athlete, sport, event, and medal records.
 
-The two tables support different types of analysis. Official country-level medal totals are analyzed using the summary table, while Individual analyses concerning athletes and sports use the detailed table.
+The two tables support different types of analysis. Official country-level medal totals are analyzed using the summary table, while individual analyses concerning athletes and sports use the detailed table.
 
 Special attention is given to duplicate medal counts in team events.
 
+## Repository Structure
+
+```
+olympic-games-data-analysis/
+│
+├── README.md
+├── data_dictionary.md
+├── sql/
+│   ├── 01_global_analysis.sql
+│   ├── 02_morocco_analysis.sql
+│   └── 03_north_africa_comparison.sql
+├── powerbi/
+│   └── olympic_dashboard.pbix
+└── images/
+    └── dashboard_preview.png
+```
+
 ## Project Structure
 
-The repository is organized into three analytical sections:
+The analysis is organized into three sections:
 
 ### 1. Global Olympic Analysis
 Exploration of participation, sports, and medal trends across Olympic editions.
@@ -49,22 +66,20 @@ Comparative analysis of medal performance, historical progression, and sports sp
 The Power BI dashboard contains three pages:
 
 - **Global:** Overall Olympic trends and performance indicators.
-- **Morocco:** Historical performance and medal distribution.
-- **Morocco–Algeria–Tunisia-Egypt:** Comparative analysis of four North African countries.
+- **Morocco:** Morocco's medal evolution and sports performance.
+- **Comparison:** Morocco, Algeria, Tunisia, and Egypt side by side.
 
-Dashboard screenshots will be added to this repository.
+![Dashboard Preview](images/dashboard_preview.png)
 
 ## SQL Analysis
 
-### SQL Analysis
-
 The SQL analysis is organized into three parts:
 
-- [Global Olympic Analysis](sql/01_global_analysis.sql) — General trends in Olympic participation, sports, and countries.
-- [Morocco Analysis](sql/02_morocco_analysis.sql) — Morocco's Olympic performance and medal evolution.
-- [North African Comparison](sql/03_north_africa_comparison.sql) — Comparison of Morocco, Algeria, Tunisia, and Egypt.
+- [Global Olympic Analysis](sql/01_global_analysis.sql): General trends in Olympic participation, sports, and countries.
+- [Morocco Analysis](sql/02_morocco_analysis.sql): Morocco's Olympic performance and medal evolution.
+- [North African Comparison](sql/03_north_africa_comparison.sql): Comparison of Morocco, Algeria, Tunisia, and Egypt.
 
-For column definitions and data details, see the [Data Dictionary](docs/data_dictionary.md).
+For column definitions and data details, see the [Data Dictionary](data_dictionary.md).
 
 ## Key Findings
 
@@ -79,7 +94,7 @@ For column definitions and data details, see the [Data Dictionary](docs/data_dic
 
 ## Author
 
-**Saad Zouaki**  
+**Saad Zouaki**
 Master's student in Economic Analysis and Modeling
 
-**Areas of interest:** Economics,Data Analytics, Econometrics, SQL, and Power BI.
+**Areas of interest:** Economics, Data Analytics, Econometrics, SQL, and Power BI.
