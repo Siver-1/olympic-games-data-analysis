@@ -95,6 +95,6 @@ For column definitions and data details, see the [Data Dictionary](data_dictiona
 ## Author
 
 **Saad Zouaki**
-Master's student in Economic Analysis and Modeling [https://github.com/Siver-1/olympic-games-data-analysis/blob/main/PowerBI/olympics_analysis_dashbord.pbix)
+Master's student in Economic Analysis and Modeling [Hakimi](https://github.com/Siver-1/olympic-games-data-analysis/blob/main/PowerBI/olympics_analysis_dashbord.pbix)
 
 **Areas of interest:** Economics, Data Analytics, Econometrics, SQL, and Power BI.
