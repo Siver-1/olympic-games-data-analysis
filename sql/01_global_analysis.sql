@@ -9,6 +9,50 @@
 -- =========================================================
 -- SECTION 1: BASIC DATA EXPLORATION
 -- =========================================================
+-- 1.Creation Of Our Databases
+CREATE DATABASE Olympic_Games_analysis;
+
+-- 2. Creating The Table Olympics
+CREATE TABLE Olympics (
+player_id INT,
+Name	VARCHAR(75),
+Sex	CHAR(1),
+Team	VARCHAR(75),
+NOC	CHAR(4),
+Year	INT,
+Season	varchar(25),
+City	VARCHAR(25),
+Sport	VARCHAR(100),
+Event	VARCHAR(255),
+Medal VARCHAR(25) 
+) ;
+LOAD DATA LOCAL INFILE 'C:/Users/SAAAD/Downloads/olympics_dataset.csv' 
+INTO TABLE Olympics
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES ;
+
+-- 3. Creating The Table Medal_Summary
+CREATE TABLE Medal_Summary (
+edition_id INT,
+games	VARCHAR(75),
+year	INT,
+season	CHAR(25),
+noc	CHAR(4),
+country	VARCHAR(75),
+gold	INT,
+silver	INT,
+bronze	INT,
+total INT );
+
+SET GLOBAL LOCAL_infile = 1;
+LOAD DATA LOCAL INFILE 'C:/Users/SAAAD/Downloads/medal_table_summary.bi.csv' 
+INTO TABLE Medal_Summary
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\r\n'
+IGNORE 1 LINES ;
 
 -- Q1. Count distinct athletes
 -- Objective: Determine the total number of athletes in the dataset.
