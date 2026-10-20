@@ -65,19 +65,19 @@ Comparative analysis of medal performance, historical progression, and sports sp
 
 The Power BI dashboard contains three pages:
 
-- **Global:** Overall Olympic trends and performance indicators.
-- **Morocco:** Morocco's medal evolution and sports performance.
-- **Comparison:** Morocco, Algeria, Tunisia, and Egypt side by side.
+- **Global:** Overall Olympic trends and performance indicators.[Global Dashboard](Images/Global_Analysis_Dashboard.png)
+- **Morocco:** Morocco's medal evolution and sports performance.[Morocco Dashboard](Images/Maroc_Analysis.png)
+- **Comparison:** Morocco, Algeria, Tunisia, and Egypt side by side.[North Africa Dashboard](Images/North_African_Comparison_Dahboard.png)
 
-![Dashboard Preview](images/dashboard_preview.png)
+![Dashboard Preview](PowerBi/olympics_analysis_dashboard.pbix)
 
 ## SQL Analysis
 
 The SQL analysis is organized into three parts:
 
 - [Global Olympic Analysis](SQL/Global_Analysis.sql): General trends in Olympic participation, sports, and countries.
-- [Morocco Analysis](sql/02_morocco_analysis.sql): Morocco's Olympic performance and medal evolution.
-- [North African Comparison](sql/03_north_africa_comparison.sql): Comparison of Morocco, Algeria, Tunisia, and Egypt.
+- [Morocco Analysis](SQL/Morocco_Analysis.sql): Morocco's Olympic performance and medal evolution.
+- [North African Comparison](SQL/North_Africa_Comparison.sql): Comparison of Morocco, Algeria, Tunisia, and Egypt.
 
 For column definitions and data details, see the [Data Dictionary](data_dictionary.md).
 
@@ -95,6 +95,6 @@ For column definitions and data details, see the [Data Dictionary](data_dictiona
 ## Author
 
 **Saad Zouaki**
-Master's student in Economic Analysis and Modeling [Hakimi](https://github.com/Siver-1/olympic-games-data-analysis/blob/main/PowerBI/olympics_analysis_dashbord.pbix)
+Master's student in Economic Analysis and Modeling 
 
 **Areas of interest:** Economics, Data Analytics, Econometrics, SQL, and Power BI.
