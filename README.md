@@ -124,4 +124,4 @@ Contributions are welcome! If you have ideas, suggestions, or improvements, feel
 **Saad Zouaki**
 Master's student in Economic Analysis and Modeling 
 
-**Areas of interest:** Economics, Data Analytics, Econometrics, SQL, and Power BI.
+**Areas of interest:** Economics, Data Analytics, Econometrics, Python, Excel, SQL, and Power BI.
