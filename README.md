@@ -1,12 +1,12 @@
-# Olympic Games Data Analysis | SQL & Power BI
+# 🏅 Olympic Games Data Analysis (1896–2024) | SQL & Power BI
 
-## Project Overview
+## 📌 Project Overview
 
 This project analyzes historical Olympic Summer Games data from 1896 to 2024 using SQL and Microsoft Power BI. It explores Olympic participation, medal performance, and the evolution of Morocco's results compared with Algeria, Tunisia, and Egypt.
 
 The goal is to transform raw data into meaningful insights through SQL queries, data analysis, and interactive visualizations.
 
-## Project Objectives
+## 🎯 Project Objectives
 
 - Analyze the historical evolution of the Olympic Summer Games.
 - Explore Morocco's Olympic medal performance across editions.
@@ -14,7 +14,7 @@ The goal is to transform raw data into meaningful insights through SQL queries, 
 - Identify sports contributing to each country's medal results.
 - Build an interactive dashboard to communicate key findings.
 
-## Tools & Technologies
+## 🛠️ Tools and Technologies
 
 - **SQL / MySQL Workbench:** Data exploration, aggregation, subqueries, CTEs, and window functions.
 - **Microsoft Power BI:** Interactive dashboards and data visualization.
@@ -31,21 +31,41 @@ The two tables support different types of analysis. Official country-level medal
 
 Special attention is given to duplicate medal counts in team events.
 
-## Repository Structure
 
-```
+## 🗄️ Data Sources
+
+The dataset used in this project is available on Kaggle:
+
+- **Summer Olympics Medals (1896–2024):** [View dataset on Kaggle](https://www.kaggle.com/datasets/stefanydeoliveira/summer-olympics-medals-1896-2024)
+
+The dataset provides historical Olympic data used for the SQL analysis and Power BI dashboards.
+
+
+## 📂 Repository Structure
+
+```text
 olympic-games-data-analysis/
 │
 ├── README.md
+├── Analysis_And_Results.md
 ├── data_dictionary.md
-├── sql/
-│   ├── 01_global_analysis.sql
-│   ├── 02_morocco_analysis.sql
-│   └── 03_north_africa_comparison.sql
-├── powerbi/
-│   └── olympic_dashboard.pbix
-└── images/
-    └── dashboard_preview.png
+│
+├── Data/
+│   ├── medal_table_summary.csv
+│   └── olympics_dataset1.xlsx
+│
+├── Images/
+│   ├── Global_Analysis_Dashboard.png
+│   ├── Maroc_Analysis.png
+│   └── North_African_Comparison_Dahboard.png
+│
+└── SQL/
+    ├── Global_Analysis.sql
+    ├── Morocco_Analysis.sql
+    └── North_Africa_Comparison.sql
+```
+
+
 ```
 
 ## Project Structure
@@ -61,7 +81,7 @@ Analysis of Morocco's medal evolution, sports performance, and athlete participa
 ### 3. Morocco, Algeria, Tunisia & Egypt Comparison
 Comparative analysis of medal performance, historical progression, and sports specialization.
 
-## Dashboard
+## 📊 Power BI Dashboards
 
 The Power BI dashboard contains three pages:
 
@@ -69,7 +89,7 @@ The Power BI dashboard contains three pages:
 - **Morocco:** Morocco's medal evolution and sports performance.[Morocco Dashboard](Images/Maroc_Analysis.png)
 - **Comparison:** Morocco, Algeria, Tunisia, and Egypt side by side.[North Africa Dashboard](Images/North_African_Comparison_Dahboard.png)
 
-## SQL Analysis
+## 💻 SQL Analysis
 
 The SQL analysis is organized into three parts:
 
@@ -79,15 +99,28 @@ The SQL analysis is organized into three parts:
 
 For column definitions and data details, see the [Data Dictionary](data_dictionary.md).
 
-## Key Findings
+## 🔍 Key Findings
 
-*Key findings will be added after validating the final SQL results and Power BI indicators.*
+- **Olympic participation:** The dataset records 11,088 athletes in 2024, compared with 176 in 1896.
+- **Morocco's performance:** Morocco recorded 523 athletes, participated in 33 sports, and won 26 medals: 8 gold, 5 silver, and 13 bronze.
+- **Morocco's sporting specialization:** Athletics accounts for 21 of Morocco's 26 medals, approximately 80.8%.
+- **North African comparison:** Egypt, Algeria, Morocco, and Tunisia show different sporting specializations. Egypt's current medal summary reports 39 medals, with two retrospectively awarded medals associated with Abeer Abdelrahman requiring reconciliation with the dataset.
+- **Women's contribution in Morocco:** The current analysis attributes 4 of Morocco's 26 medals to women and 22 to men.
+
+For the detailed results, tables, interpretations, and methodological limitations, see **[Analysis and Results](Analysis_And_Results.md)**.
+
 
 ## Limitations
 
 - Results depend on the coverage and structure of the source dataset.
 - Athlete-level medal records may count multiple members of the same medal-winning team.
 - Comparisons should account for differences between the official medal summary and detailed athlete records.
+
+- 
+## 🤝 Contributions
+
+Contributions are welcome! If you have ideas, suggestions, or improvements, feel free to open an issue or submit a pull request. Let’s collaborate to make this project even better.
+
 
 ## Author
 
