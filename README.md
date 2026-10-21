@@ -65,9 +65,6 @@ olympic-games-data-analysis/
     └── North_Africa_Comparison.sql
 ```
 
-
-```
-
 ## Project Structure
 
 The analysis is organized into three sections:
